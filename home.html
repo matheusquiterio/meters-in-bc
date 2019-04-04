@@ -4,13 +4,20 @@
 		<script src="myScript1.js"></script>
 		<title>Home - Smart Meters in Blockchain</title>
 		<style>
+			button{
+  				margin:auto;
+  				display:block;
+			}
+			table#t01{
+				border:1px solid black;
+				padding: 15px;
+			}
 			
 		</style>
 		<h1 style="text-align:center">Smart Meters in Blockchain</h1>
 		
 		
 	</head>
-
 	<body>
 		<!-- <p id="demo">A Paragraph</p>
 		<button type="button" onclick="myFunction()">Try it</button>
@@ -18,7 +25,7 @@
 		<!-- EXEMPLO DE COMO FUNCIONA O SCRIPT-->
 		
 		<!--MENU DE PÁGINAS -->
-		<table style="width:80%" align="center">
+		<table style="width:80%; border:0" align="center">
 			<tr>
 				<th><a href="home.html">Home</a></th>
 				<th><a href="how.html">How it works</a></th>
@@ -29,11 +36,19 @@
 		
 		<!-- BOTÕES E FUNÇÕES-->
 		<p align="center">Click the button below to add data to the table</p>
-		<button type="button" onclick="createArray()">Add data</button>
+		<div>
+			<button type="button" onclick="createArray()">Add data</button>
+		</div>
+		
 		<p align="center">Click the button below to create the table</p>
-		<button type="button" onclick="createTable(tableData)">Create table</button>
-		<br>
-		<button type="button" onclick="showArray()">Show Array Data</button>
+		<div>
+			<button type="button" onclick="createTable(tableData)">Create table</button>
+		</div>
+		<p></p>
+		<div>
+			<button type="button" onclick="showArray()">Show Array Data</button>
+		</div>
+		
 		
 	</body>
 </html>
