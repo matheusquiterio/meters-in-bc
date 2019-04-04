@@ -1,3 +1,5 @@
+var tableData = []
+
 function myFunction() {
  document.getElementById("demo").innerHTML = "Paragraph changed.";
 }
@@ -21,4 +23,25 @@ function createTable(tableData) {
   table.appendChild(tableBody);
   document.body.appendChild(table);
 }
+
+function createArray(){
+	var address = window.prompt("Enter your wallet addres: ");
+	var previousMeasure = window.prompt("Last month metering in kWh: ");
+	var actualMeasure = window.prompt("Actual month metering in kWh ");
+	var differenceMeasure = actualMeasure - previousMeasure;
+	var arrayMeasure = [address, previousMeasure, actualMeasure, differenceMeasure]
+	tableData.push(arrayMeasure)
+	return alert("Value added")
+
+}
+
+function showArray(){
+	/*var items = [
+		[1, 2],
+		[3, 4],
+		[5, 6]
+		];*/
+	return alert(items[0][1])
+	
+	}
 
