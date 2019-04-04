@@ -1,10 +1,12 @@
+//VARIAVEL COM OS DADOS
 var tableData = []
 
-function myFunction() {
+function myFunction() { //TESTE
  document.getElementById("demo").innerHTML = "Paragraph changed.";
 }
 
-function createTable(tableData) {
+//FUNÇÃO QUE CRIA TABELA A PARTIR DE ARRAY 2D
+function createTable(tableData) {  
   var table = document.createElement('table');
   var tableBody = document.createElement('tbody');
 
@@ -24,6 +26,7 @@ function createTable(tableData) {
   document.body.appendChild(table);
 }
 
+//USER INPUT DOS DADOS E ALTERA O ARRAY 2D
 function createArray(){
 	var address = window.prompt("Enter your wallet addres: ");
 	var previousMeasure = window.prompt("Last month metering in kWh: ");
@@ -35,6 +38,7 @@ function createArray(){
 
 }
 
+//WIP: MOSTRA OS DADOS DO VETOR 2D
 function showArray(){
 	/*var items = [
 		[1, 2],
