@@ -1,10 +1,6 @@
 //VARIAVEL COM OS DADOS
 var tableData = []
 
-function myFunction() { //TESTE
- document.getElementById("demo").innerHTML = "Paragraph changed.";
-}
-
 //FUNÇÃO QUE CRIA TABELA A PARTIR DE ARRAY 2D
 function createTable(tableData) {  
   var table = document.createElement('table');
