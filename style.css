@@ -1,0 +1,38 @@
+/* HTML PATTERNS */
+h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 150%;
+  }
+
+h2{
+    color: black;
+    font-family: 'Times New Roman';
+    font-size: 120%
+
+}
+
+button{
+    margin:auto;
+    display:block;
+}
+/* IDS */
+#menuNav{
+    border:1px solid black;
+    padding: 15px;
+    width:80%; 
+    border:0;
+}
+
+#footer{
+    color: gray;
+    font-size: 80%;
+    margin-top:150px;
+    /* margin-left: 50px; */
+    background-color: rgba(000, 111, 101, 0.1);
+    back
+    
+
+}
+
+/* CLASSES */
