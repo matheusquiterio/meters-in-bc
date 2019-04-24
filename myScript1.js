@@ -3,7 +3,8 @@ var tableData = []
 
 //FUNÇÃO QUE CRIA TABELA A PARTIR DE ARRAY 2D
 function createTable(tableData) {  
-  var table = document.createElement('table');
+	//var table = document.createElement('table');
+	var table     = document.getElementById("TableData");
   var tableBody = document.createElement('tbody');
 
   tableData.forEach(function(rowData) {
@@ -19,7 +20,7 @@ function createTable(tableData) {
   });
 
   table.appendChild(tableBody);
-  document.body.appendChild(table);
+  //document.body.appendChild(table);
 }
 
 //USER INPUT DOS DADOS E ALTERA O ARRAY 2D
